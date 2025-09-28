@@ -671,3 +671,220 @@ footer .footer-right .social li img {
     width: 100%;
     display: block;
 }
+
+svg {
+    width: 30px;
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+    .nav-links {
+        display: none;
+    }
+
+    .header-bt {
+        display: none;
+    }
+
+    svg {
+        display: block;
+    }
+
+    #blog .blog-list {
+        flex-wrap: wrap;
+    }
+
+    #blog .blog-list .blog-card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #spotlight .spot-content {
+        width: 100%;
+    }
+
+    #services .wrapper {
+        flex-direction: column;
+    }
+
+    #services .service_content,
+    #services .services-image {
+        width: 100%;
+    }
+
+    #why .why-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #why .why-list .why-card {
+        width: 370px;
+    }
+
+    #sustainability .sust-content .sus-imgbox {
+        right: -30px;
+    }
+
+    #sustainability .sust-content .sus-imgvector {
+        right: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    #sustainability .wrapper {
+        flex-direction: column;
+    }
+
+    #sustainability .sust-left {
+        margin: 0 auto;
+    }
+
+    #sustainability .gradient {
+        display: none;
+    }
+
+    #sustainability .sust-content {
+        width: 100%;
+    }
+
+    #sustainability .sust-content .sus-imgbox {
+        bottom: 0;
+    }
+
+    #sustainability .sust-content .sus-imgvector {
+        top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    #casestudy .wrapper {
+        flex-direction: column;
+    }
+
+    #casestudy .case-img {
+        width: 70%;
+    }
+
+    #casestudy .case-content {
+        width: 100%;
+    }
+
+    #certification .iso-list {
+        width: 100%;
+    }
+
+    #blog .blog-list .blog-card {
+        width: 80%;
+    }
+
+    #blog .blog-list .blog-card .blog-content {
+        height: 300px;
+    }
+
+    #why .why-list {
+        gap: 50px;
+    }
+
+    #spotlight .wrapper {
+        padding: 0 40px;
+    }
+
+    #spotlight h3 {
+        font-size: 26px;
+    }
+
+    #spotlight p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px) {
+    footer .footer-right {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    footer .footer-right .footer-nav {
+        display: grid;
+        border-bottom: none;
+        gap: 20px;
+        width: 40%;
+    }
+
+    footer .footer-right .footer-top {
+        width: 50%;
+    }
+
+    footer .footer-right .social {
+        margin-top: 10px;
+    }
+
+    footer .footer-right .bottom-img {
+        width: 260px;
+    }
+
+    .spot-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    #blog .blog-list .blog-card,
+    #sustainability .sust-content .content-box {
+        width: 100%;
+    }
+
+    #sustainability .sust-content .sus-imgbox,
+    #sustainability .sust-content .sus-imgvector {
+        display: none;
+    }
+
+    #sustainability .sust-left {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-cards {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    #spotlight .wrapper {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 400px) {
+    #spotlight h3 {
+        font-size: 20px;
+    }
+
+    #spotlight p {
+        font-size: 16px;
+    }
+
+    .spot-buttons {
+        width: 85%;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    #why h5 img {
+        width: 200px;
+    }
+}
