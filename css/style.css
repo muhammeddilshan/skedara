@@ -460,6 +460,7 @@ body {
     margin-top: -80px;
     position: relative;
     z-index: 99;
+    height: 360px;
 }
 
 #blog .blog-list .blog-card .blog-content h6 {
@@ -598,6 +599,7 @@ footer {
     padding: 50px 0;
     height: 500px;
     position: relative;
+    padding-top: 80px;
 
 }
 
@@ -643,7 +645,7 @@ footer .footer-right .footer-nav {
     list-style: none;
     text-decoration: none;
     border-bottom: 0.5px solid #FAFAFA;
-    padding-bottom: 10px;
+    padding-bottom: 16px;
 
 }
 
@@ -651,4 +653,21 @@ footer .footer-right .footer-nav li {
     font-size: 18px;
     font-weight: 500;
     color: #FAFAFA;
+}
+
+footer .footer-right .social {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+footer .footer-right .social li {
+    width: 20px;
+}
+
+footer .footer-right .social li img {
+    width: 100%;
+    display: block;
 }
