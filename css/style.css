@@ -672,7 +672,7 @@ footer .footer-right .social li img {
     display: block;
 }
 
-svg {
+.menu {
     width: 30px;
     display: none;
 }
@@ -687,7 +687,7 @@ svg {
         display: none;
     }
 
-    svg {
+    .menu {
         display: block;
     }
 
@@ -881,6 +881,10 @@ svg {
     #certification .iso-list .iso-card .iso-content h6,
     #certification .iso-list .iso-card .iso-content p {
         font-size: 20px;
+    }
+
+    #services .service-mesh {
+        bottom: -44px;
     }
 }
 
