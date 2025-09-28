@@ -865,10 +865,29 @@ svg {
     #spotlight .wrapper {
         height: 80vh;
     }
+
+    #certification .iso-list .iso-card {
+        flex-direction: column;
+    }
+
+    #certification .certi-mesh {
+        display: none;
+    }
+
+    #certification .iso-list .iso-card .iso-content {
+        padding: 30px;
+    }
+
+    #certification .iso-list .iso-card .iso-content h6,
+    #certification .iso-list .iso-card .iso-content p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 400px) {
-    #spotlight h3 {
+
+    #spotlight h3,
+    #why .why-list .why-card h4 {
         font-size: 20px;
     }
 
@@ -885,6 +904,55 @@ svg {
     }
 
     #why h5 img {
+        width: 200px;
+    }
+
+    #why .why-list .why-card p {
+        font-size: 14px;
+    }
+
+    #services .service_content h4,
+    #casestudy .case-content h4,
+    #certification h4,
+    #blog h4,
+    #sustainability .sust-content .content-box h4,
+    #blog .blog-list .blog-card .blog-content h6,
+    .service-card h3 {
+        font-size: 18px;
+    }
+
+    #sustainability .sust-content .content-box h2,
+    #blog h2,
+    #certification h2,
+    #casestudy .case-content h2,
+    #services .service_content h2 {
+        font-size: 22px;
+    }
+
+    #sustainability .sust-left .letters h5 {
+        font-size: 30px;
+    }
+
+    #sustainability .sust-left p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #sustainability .sust-left .letters {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer .footer-right .footer-nav li,
+    footer .footer-right .footer-top p {
+        font-size: 16px;
+    }
+
+    footer .footer-right .footer-top img {
+        width: 150px;
+    }
+
+    footer .footer-right .bottom-img {
         width: 200px;
     }
 }
