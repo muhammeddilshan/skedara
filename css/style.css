@@ -705,6 +705,10 @@ footer .footer-right .social li img {
     cursor: pointer;
 }
 
+body.menu-active {
+    overflow: hidden;
+}
+
 
 .mobile {
     position: fixed;
