@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .wrapper {
@@ -76,6 +76,18 @@ body {
     font-size: 15px;
     font-weight: 500;
     transition: 0.3s ease;
+}
+
+.btn2 {
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 6px 0px #0000001A;
 }
 
 .btn:hover {
@@ -419,6 +431,19 @@ body {
 #blog {
     padding: 50px 0;
     background: #0B2A67;
+    position: relative;
+}
+
+#blog .blog-vec {
+    width: 300px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+#blog .blog-vec img {
+    width: 100%;
+    display: block;
 }
 
 #blog h4 {
@@ -442,6 +467,8 @@ body {
 
 #blog .blog-list .blog-card {
     width: 30%;
+    position: relative;
+    z-index: 2;
 
 }
 
@@ -885,6 +912,10 @@ footer .footer-right .social li img {
 
     #services .service-mesh {
         bottom: -44px;
+    }
+
+    #blog .blog-list .blog-card .blog-content {
+        width: 100%;
     }
 }
 
