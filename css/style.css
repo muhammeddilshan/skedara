@@ -702,6 +702,52 @@ footer .footer-right .social li img {
 .menu {
     width: 30px;
     display: none;
+    cursor: pointer;
+}
+
+
+.mobile {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s ease;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mobile p {
+    text-align: right;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.mobile.active {
+    right: 0;
+}
+
+.mobile .mobile-links {
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.mobile .mobile-links li {
+    list-style: none;
+    margin-bottom: 16px;
+
+}
+
+.mobile .mobile-links li a {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
 }
 
 
