@@ -719,6 +719,7 @@ footer .footer-right .social li img {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    z-index: 99;
 }
 
 .mobile p {
@@ -730,6 +731,7 @@ footer .footer-right .social li img {
 .mobile.active {
     right: 0;
 }
+
 
 .mobile .mobile-links {
     flex-direction: column;
